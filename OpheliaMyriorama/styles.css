@@ -6,15 +6,19 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f0f0f0;
+    overflow-x: auto;
 }
 
 .contenedor {
     display: flex;
+    padding: 10px;
+    max-width: 80%;
+    box-sizing: border-box;
 }
 
 .imagen {
-    width: 889px;
-    height: 1252px;
+    width: 444px;
+    height: 626px;
     object-fit: cover;
     cursor: grab;
 }
